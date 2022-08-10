@@ -4,37 +4,64 @@ import { Button } from "../Button";
 
 export default function SignUp() {
   return (
-    <div className="signup-container">
-      <div className="input-area">
-        <h1>Get Started!! Join Now</h1>
-        <form className="form">
+    <div className="form-content-right">
+      <form className="form">
+        <h1>Get Started with us!!</h1>
+        <div className="from-inputs">
+          <label htmlFor="Username" className="form-label">
+            Username
+          </label>
           <input
-            className="signup-input"
-            name="name"
-            type="name"
-            placeholder="Your Name"
+            id="username"
+            type="text"
+            name="username"
+            className="form-input"
+            placeholder="Enter your username"
           />
+        </div>
+        <div className="from-inputs">
+          <label htmlFor="email" className="form-label">
+            Email
+          </label>
           <input
-            className="signup-input"
-            name="email"
+            id="email"
             type="email"
-            placeholder="Email ID"
+            name="email"
+            className="form-input"
+            placeholder="Enter your email"
           />
+        </div>
+        <div className="from-inputs">
+          <label htmlFor="password" className="form-label">
+            Password
+          </label>
           <input
-            className="signup-input"
-            name="phone"
-            type="phone"
-            placeholder="Phone Number"
+            id="password"
+            type="password"
+            name="password"
+            className="form-input"
+            placeholder="Enter your password"
           />
+        </div>
+        <div className="from-inputs">
+          <label htmlFor="password2" className="form-label">
+            Confirm Password
+          </label>
           <input
-            className="signup-input"
-            name="publicid"
-            type="id"
-            placeholder="Your Public ID"
+            id="password2"
+            type="password2"
+            name="password2"
+            className="form-input"
+            placeholder="Confirm your password"
           />
-          <Button buttonStyle="btn--outline">SUBMIT</Button>
-        </form>
-      </div>
+        </div>
+        <button className="form-input-btn" type="Submit">
+          Sign Up
+        </button>
+        <span className="form-input-login">
+          Already have an Account? Login <a href="#">here</a>
+        </span>
+      </form>
     </div>
   );
 }
