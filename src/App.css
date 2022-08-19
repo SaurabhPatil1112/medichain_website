@@ -109,9 +109,14 @@
   text-align: center;
   width: 80%;
   margin-bottom: 1rem;
-  color: #fff;
+  color: rgb(252, 252, 252);
 }
 
+.main-form{
+  position: center;
+  width: 30%;
+  height: 40%;
+}
 .form-inputs {
   margin-bottom: 0.5rem;
   width: 80%;
@@ -121,12 +126,14 @@
   justify-content: left;
   display: block;
   font-size: 100%;
-  margin-bottom: 6px;
+  margin-bottom: 0px;
   color: #ffff;
+  margin-top: 6px;
 }
 
 .form-input {
   display: block;
+  font-size: 16px;
   padding-left: 10px;
   outline: none;
   border-radius: 2px;
@@ -136,12 +143,12 @@
 }
 
 .form-input::placeholder {
-  color: #858585;
-  font-size: 12px;
+  color: #c0bdbd;
+  font-size: 16px;
 }
 
 .form-input-btn {
-  width: 50%;
+  width: 30%;
   height: 50px;
   margin-top: 10px;
   border-radius: 2px;
