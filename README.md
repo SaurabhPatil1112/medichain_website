@@ -1,3 +1,16 @@
+# If you have downloaded the project from the git or cloned it from the git
+
+You have to get into the project directory(./medichain_website) and then you have to run in cmd
+
+### `npm install`
+
+this will install all the necessary node modules to run the project.
+After that you just have to run
+
+### `npm start`
+
+This will start the app.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
