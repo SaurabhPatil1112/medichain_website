@@ -1,5 +1,9 @@
 # If you have downloaded the project from the git or cloned it from the git
 
+## First You will need node.js
+
+Follow the [steps to install node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
 You have to get into the project directory(./medichain_website) and then you have to run in cmd
 
 ### `npm install`
